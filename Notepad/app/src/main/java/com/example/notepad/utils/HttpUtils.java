@@ -16,7 +16,7 @@ public class HttpUtils {
     public static final int MSG_DELETE_OK = 4;
 
     public static final MediaType JSON = MediaType.get("application/json; charset=utf-8");
-    public static final String URL = "http://121.199.44.171:8585";
+    public static final String URL = "http://106.12.165.48:8080";
 
     public static Request postRequestBuilder(String action, NotepadBean req) {
         RequestBody body = RequestBody.create(JSON, new Gson().toJson(req));
